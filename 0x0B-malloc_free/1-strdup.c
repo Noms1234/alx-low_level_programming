@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-		
+
 /**
 * _strdup -  function that returns a pointer to new space
-* @str: duplicate of the string 
+* @str: duplicate of the string
 * Return: 0
 */
-		
 char *_strdup(char *str)
 {
 	char *s;

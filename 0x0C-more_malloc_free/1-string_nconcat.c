@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdbib.h>
+#include <stdlib.h>
 
 /**
  * string_nconcat - function that concatenates two strings
@@ -8,7 +8,7 @@
  * @n: bytes
  * Return:  pointer shall point to a newly allocated space in memory
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *pntr;
 	unsigned int i, j, k, l;
@@ -34,9 +34,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
 
 	for (z = 0; z < k ; z++)
 		if (z < i)
-			pntr[z] = s1[Z];
+			pntr[z] = s1[z];
 	else
-		pntr[z] = s2[z - i]
+		pntr[z] = s2[z - i];
 		pntr[z] = '\0';
 
 	return (pntr);
